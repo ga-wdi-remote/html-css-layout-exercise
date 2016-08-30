@@ -74,8 +74,36 @@ section {
   width: 100%;
   background-color: blue;
 }
+/* HOVERING BEHAVIOR */
+/* vertical on-hover expansion of bottom row */
+main:hover > .bottom-row:hover {
+  height: 55%;
+}
+main:hover > .top-row {
+  height: 45%;
+}
+main:hover > .top-row:hover {
+  height: 50%;
+}
+/* horizontal on-hover expansion of top row cells */
+.top-row:hover > div:hover {
+  width: 38%;
+}
+.top-row:hover > div {
+  width: 31%;
+}
 
 footer {
   height: 60px;
   background-color: yellow;
+}
+
+@media (max-width: 850px) {
+  aside {
+    display: none;
+  }
+  main {
+    margin-left: 5%;
+    width: 90%;
+  }
 }
