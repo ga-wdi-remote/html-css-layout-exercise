@@ -29,13 +29,16 @@ text and/or dummy images.
 
 ![Wireframe](https://cloud.githubusercontent.com/assets/10408784/14149781/ce8a81d8-f673-11e5-9581-2ce80b305c7d.png)
 
+When you finish, take a screenshot of your page -- you will include this
+screenshot with your issue.
+
 ### Reach Targets
 
 > NOTE: Do not attempt until requirements have been met.
 
-1.  When any of the four subsections of the main content pane is hovered over,
-    it should expand either horizontally (top three) or vertically (bottom),
-    without the content pane itself getting any larger.
+1.  When any one of the four subsections of the main content pane is hovered
+    over, it should expand either horizontally (top three) or vertically
+    (bottom), without the content pane itself getting any larger.
 
 2.  Make this site responsive using media queries.
     As the page gets smaller (< 850 px), the left sidebar should disappear
@@ -50,6 +53,8 @@ a title in the format "YourGitHubUsername -- Week XX Day XX".
 The issue body should have:
 
 -   A link that points back to your fork.
+
+-   A screenshot of your site (see above).
 
 -   A 'comfort' score on how you feel about the material, from 1 (very
     uncomfortable) to 5 (very comfortable)
